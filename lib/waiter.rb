@@ -70,7 +70,5 @@ class Waiter
         end
     average_tip = combined_tips/num_of_meals
   end
-
-
 end
 #end
