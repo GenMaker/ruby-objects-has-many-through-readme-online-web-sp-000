@@ -66,10 +66,10 @@ class Waiter
       tips << meal.tip
     #end
         tips.each do |tip|
-        combined_tip += tip
+        combined_tips += tip
         end
     end 
-    average_tip = combined_tip/num_of_meals
+    average_tip = combined_tips/num_of_meals
   end
 
 
