@@ -59,11 +59,12 @@ class Waiter
   def average_tip
     tips = []
     num_of_meals= 0
-    average_tip = 0
+    combined_tips = 0
     meals.each  do |meal|
       num_of_meals += 1
-
       tips << meal.tip
+      binding.pry
+      end
 
     end
   end
