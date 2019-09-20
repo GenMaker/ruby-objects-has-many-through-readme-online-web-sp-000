@@ -66,7 +66,7 @@ class Waiter
       binding.pry
       end
 
-    end
+    
   end
 
 
