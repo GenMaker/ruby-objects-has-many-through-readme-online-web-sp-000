@@ -63,8 +63,8 @@ class Waiter
     meals.each  do |meal|
       num_of_meals += 1
       binding.pry
-      tips << meal.customer.tip
-      
+      tips << meal.tip
+
     end
   end
 
