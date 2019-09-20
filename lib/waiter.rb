@@ -62,7 +62,7 @@ class Waiter
     average_tip = 0
     meals.each  do |meal|
       num_of_meals += 1
-      
+
       tips << meal.tip
 
     end
